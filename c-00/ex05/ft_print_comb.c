@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_comb.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bercakir <bercakir@student.42istanbul.c    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/11/20 19:23:51 by bercakir          #+#    #+#             */
+/*   Updated: 2025/11/20 19:23:51 by bercakir         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
-void ft_3num(char a, char b, char c)                               /*0-9 arasında olan sayıların sıralı artan şeklinde kombinasyonlarının bulunması*/
+void ft_3num(char a, char b, char c)                              
 {
     write(1, &a, 1);
     write(1, &b, 1);
